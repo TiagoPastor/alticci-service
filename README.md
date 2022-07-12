@@ -8,10 +8,10 @@
 ### Stack utilizada
 
 * Java 11
-* Spring Boot Web; JPA; Data;
+* Spring Boot Web; JPA; Data; Actuator
 * Maven
 * JUnit
-* Swagger v3
+* OpenApi (Swagger v3)
 * H2 DataBase
 * Lombok
 * Docker
