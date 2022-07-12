@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "8ce125f0-7853-41f2-86ed-7bf77bcede26",
+		"name": "API Alticci service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11792592"
+	},
+	"item": [
+		{
+			"name": "Informar índice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/v1/alticci/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"v1",
+						"alticci",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todos os índices ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/v1/alticci/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"v1",
+						"alticci",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar índice pelo ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/api/v1/alticci/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"api",
+						"v1",
+						"alticci",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
